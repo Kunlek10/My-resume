@@ -1,0 +1,140 @@
+/* Colours:
+#caf0f8 
+#90e0ef
+#00b4d8
+#0077b6
+#03045e
+
+fffffc
+ffc6ff
+bdb2ff
+a0c4ff
+9bf6ff
+caffbf
+fdffb6
+ffd6a5
+ffadad
+
+*/
+/* Global Styles */
+
+html {
+    background-color:#fffffc;
+}
+
+body {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+section h3 h4 {
+    border: 0;
+    padding: 0px;
+    margin: 1px;
+}
+
+/* Navigation Button */
+
+ul {
+    list-style-type: none;
+  }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #bdb2ff;
+}
+
+.navigation {
+    padding: 3px;
+    background-color: #ffc6ff;
+    display: block;
+    font-size: larger;
+}
+.aaa {
+    margin: 20px 80px;
+    display:flex; 
+}
+
+.a {
+    flex: 100px;
+}
+
+/* Introduction
+---------------------- */
+.info {
+    background-color: #bdb2ff;
+    margin: 1px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.info tr td p {
+    padding: 5px 10px;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+/* EDUCATIONS
+---------------------- */
+
+.edu {
+    background-color: #a0c4ff;
+    padding:10px;
+    padding-left: 20px;
+    margin: 1px;
+}
+
+
+/* SKILLS
+---------------------- */
+.skills {
+    background-color: #9bf6ff;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 1px;
+}
+
+/* WORK EXPERIENCES
+---------------------- 
+*/
+.exp {
+    background: #caffbf;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 1px;
+
+}
+
+
+
+
+/* PROJECTS
+---------------------- */
+.prj {
+    background-color: #fdffb6;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 1px;
+}
+
+/* Contact 
+-------------------------*/
+
+.contact {
+    background-color: #ffd6a5;
+    padding: 30px;
+
+}
+
+/* Footer
+---------------------- */
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
