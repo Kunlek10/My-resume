@@ -35,17 +35,22 @@ section h3 h4 {
 
 /* Navigation Button */
 
-ul {
+nav ul {
     list-style-type: none;
-  }
+    margin: 20px 80px;
+}
 
-nav a {
-    text-decoration: none;
-    color: black;
+nav ul .a {
+    display: inline-block;
+    margin-right: 30px;
 }
 
 a:hover {
     color: #bdb2ff;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
 
 .navigation {
@@ -54,14 +59,7 @@ a:hover {
     display: block;
     font-size: larger;
 }
-.aaa {
-    margin: 20px 80px;
-    display:flex; 
-}
 
-.a {
-    flex: 100px;
-}
 
 /* Introduction
 ---------------------- */
